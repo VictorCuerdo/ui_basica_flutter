@@ -10,8 +10,8 @@ class MainTiendasPage extends StatefulWidget {
 class _MainTiendasPageState extends State<MainTiendasPage> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-        child: Container(
+    return Scaffold(
+        body: Container(
             child: Row(
       children: [
         Column(
