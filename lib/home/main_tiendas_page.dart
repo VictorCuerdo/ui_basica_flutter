@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../utils/colors.dart';
+import '../widgets/texto_grande.dart';
 
 class MainTiendasPage extends StatefulWidget {
   const MainTiendasPage({Key? key}) : super(key: key);
@@ -23,11 +24,17 @@ class _MainTiendasPageState extends State<MainTiendasPage> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Column(
-                        children: [Text("Ciudad"), Text("Dirección")],
+                        children: [
+                          TextoGrande(
+                            text: "Barranquilla",
+                            color: AppColors.mainColor,
+                          ),
+                          Text("Dirección")
+                        ],
                       ),
                       Center(
                           child: Container(
-                        width: 200,
+                        width: 45,
                         height: 45,
                         child: Icon(Icons.search, color: Colors.white),
                         decoration: BoxDecoration(
