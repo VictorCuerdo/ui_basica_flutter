@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../utils/colors.dart';
 import '../widgets/texto_grande.dart';
+import '../widgets/texto_pequeno.dart';
 
 class MainTiendasPage extends StatefulWidget {
   const MainTiendasPage({Key? key}) : super(key: key);
@@ -29,7 +30,17 @@ class _MainTiendasPageState extends State<MainTiendasPage> {
                             text: "Barranquilla",
                             color: AppColors.mainColor,
                           ),
-                          Text("Dirección")
+                          Row(
+                            children: [
+                              Icon(Icons.location_pin),
+                              TextoPequeno(
+                                text: "Carrera 30#69B-144",
+                                size: 20,
+                                color: Colors.black54,
+                              ),
+                              Icon(Icons.arrow_drop_down_rounded)
+                            ],
+                          )
                         ],
                       ),
                       Center(
