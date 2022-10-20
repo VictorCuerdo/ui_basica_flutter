@@ -28,6 +28,6 @@ class _ProductosPageBodyState extends State<ProductosPageBody> {
             borderRadius: BorderRadius.circular(30),
             color: index.isEven ? Color(0xFF69c5df) : Color(0xFF9294cc),
             image: DecorationImage(
-                image: AssetImage("assets/image/leche01.jpeg"))));
+                image: AssetImage("assets/images/leche01.jpeg"))));
   }
 }
