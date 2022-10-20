@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/home/productos_page_body.dart';
 
 import '../utils/colors.dart';
 import '../widgets/texto_grande.dart';
@@ -54,7 +55,8 @@ class _MainTiendasPageState extends State<MainTiendasPage> {
                         ),
                       ))
                     ],
-                  )))
+                  ))),
+          ProductosPageBody(),
         ],
       ),
     );
