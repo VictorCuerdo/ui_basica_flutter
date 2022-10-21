@@ -9,7 +9,7 @@ class TextoPequeno extends StatelessWidget {
       {super.key,
       this.color = const Color(0xFFccc7c5),
       required this.text,
-      this.size = 12,
+      this.size = 9,
       this.height = 1.2});
 
   @override

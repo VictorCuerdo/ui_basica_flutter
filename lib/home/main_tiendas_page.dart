@@ -36,7 +36,7 @@ class _MainTiendasPageState extends State<MainTiendasPage> {
                               Icon(Icons.location_pin),
                               TextoPequeno(
                                 text: "Carrera 30#69B-144",
-                                size: 20,
+                                size: 15,
                                 color: Colors.black54,
                               ),
                               Icon(Icons.arrow_drop_down_rounded)
@@ -46,8 +46,8 @@ class _MainTiendasPageState extends State<MainTiendasPage> {
                       ),
                       Center(
                           child: Container(
-                        width: 45,
-                        height: 45,
+                        width: 50,
+                        height: 50,
                         child: Icon(Icons.search, color: Colors.white),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(15),

@@ -7,9 +7,9 @@ class TextoGrande extends StatelessWidget {
   TextOverflow overFlow;
   TextoGrande(
       {super.key,
-      this.color = const Color(0xFF332d2),
+      this.color = const Color(0x0F000000),
       required this.text,
-      this.size = 40,
+      this.size = 14,
       this.overFlow = TextOverflow.ellipsis});
 
   @override
